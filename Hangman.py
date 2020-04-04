@@ -104,6 +104,9 @@ wrong_char_list = []
 while count < 6:  # To give 6 wrong attempts
     user_input = input("Please enter your choice :: ").upper()
     for index, word in enumerate(words1):  # Iterate through the word
+        if len(user_input) > 1:
+            print("Please enter single character ... ")
+            break
         if user_input in words1:
             if user_input not in correct_char_list:  # Collect all valid chars in a list
                 correct_char_list.append(user_input)  # Append correct chars in a list
