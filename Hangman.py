@@ -25,16 +25,6 @@ total_no_of_words = list(total_no_of_words)[0:-1]  # [len(i) for i in words1.spl
 print(total_no_of_words)
 
 hangman_dict = {
-    0 : """
---------
-|      |
-|
-|
-|
-|
-|
-----------
-""",
     1: """
 --------
 |      |
@@ -107,6 +97,8 @@ while count < 6:  # To give 6 wrong attempts
         if len(user_input) > 1:
             print("Please enter single character ... ")
             break
+        if user_input == '':
+            continue
         if user_input in words1:
             if user_input not in correct_char_list:  # Collect all valid chars in a list
                 correct_char_list.append(user_input)  # Append correct chars in a list
@@ -118,7 +110,10 @@ while count < 6:  # To give 6 wrong attempts
             for i in get_index:
                 total_no_of_words[i] = user_input  # Modify total_no_of_words with guessed chars
 
-            if "".join(total_no_of_words).replace("/", " ") == words1:  # Verify if all words were guessed correctly
+            # print("HEREEEEEEEEEEE")
+            # print(words1)
+            # print("".join(total_no_of_words).replace("/", " ") + "\n")
+            if "".join(total_no_of_words).replace("/", " ") + "\n" == words1:  # Verify if all words were guessed correctly
                 count = 6
             break
         else:  # If user makes wrong guess
