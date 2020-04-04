@@ -28,11 +28,13 @@ for data in range(random_num):
 sorted_lst = sorted(list(set(generated_lst)))
 print(sorted_lst)
 
-len_half = math.ceil(len(sorted_lst)/2)
+# len_half = math.ceil(len(sorted_lst)/2)
+len_half = len(sorted_lst) // 2
 
 left_lst = sorted_lst[:len_half]
 right_lst = sorted_lst[len_half:]
 middle_number = sorted_lst[len_half]
+print(middle_number)
 
 user_input = int(input(f"Please enter number between {0, 100}"))
 
@@ -47,7 +49,8 @@ else:
         elif user_input < middle_number:
             new_lst = sorted_lst[:len_half]
             print("New List :: ", new_lst)
-            len_half = math.ceil(len(new_lst) / 2)
+            # len_half = math.ceil(len(new_lst) / 2)
+            len_half = len(new_lst) // 2
             try:
                 middle_number = new_lst[len_half]
             except:
@@ -56,7 +59,8 @@ else:
         elif user_input > middle_number:
             new_lst = sorted_lst[len_half:]
             print("New List :: ", new_lst)
-            len_half = math.ceil(len(new_lst) / 2)
+            # len_half = math.ceil(len(new_lst) / 2)
+            len_half = len(new_lst) // 2
             try:
                 middle_number = new_lst[len_half]
             except:
@@ -64,8 +68,8 @@ else:
             sorted_lst = new_lst
 
 if len(new_lst) == 1 and new_lst[0] == user_input:
-    print("Number in list")
+    print("Number in list", new_lst)
 elif len(new_lst) > 1:
-    print("Number in list")
+    print("Number in list", new_lst)
 else:
     print("Number not found")
