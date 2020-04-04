@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24b0e2d8-a3b1-4d90-aedf-99ae59d4dd6e" name="Default Changelist" comment="" />
+    <list default="true" id="24b0e2d8-a3b1-4d90-aedf-99ae59d4dd6e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="E:/Python_Learning" />
   </component>
-  <component name="RunManager" selected="Python.Dice_Rolling_Simulator">
+  <component name="RunManager" selected="Python.Hangman">
     <configuration name="Binary_Search_Algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Beginner_Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,9 +138,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Hangman" />
         <item itemvalue="Python.Dice_Rolling_Simulator" />
         <item itemvalue="Python.Binary_Search_Algorithm" />
-        <item itemvalue="Python.Hangman" />
         <item itemvalue="Python.Password_Generator" />
         <item itemvalue="Python.Guess_The_Number" />
       </list>
@@ -174,38 +176,56 @@
       <option name="project" value="LOCAL" />
       <updated>1586029448839</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dice Rolling Game">
+      <created>1586030684916</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586030684916</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dice Rolling Game" />
     <option name="LAST_COMMIT_MESSAGE" value="Dice Rolling Game" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1586029447287">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1586030684042">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586029447287" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586030684042" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1586023413208">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586023413208" />
-    <state width="1345" height="153" key="GridCell.Tab.0.bottom" timestamp="1586029337304">
+    <state width="1345" height="81" key="GridCell.Tab.0.bottom" timestamp="1586030688953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586029337304" />
-    <state width="1345" height="153" key="GridCell.Tab.0.center" timestamp="1586029337304">
+    <state width="1345" height="81" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586030688953" />
+    <state width="1345" height="81" key="GridCell.Tab.0.center" timestamp="1586030688953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586029337304" />
-    <state width="1345" height="153" key="GridCell.Tab.0.left" timestamp="1586029337304">
+    <state width="1345" height="81" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586030688953" />
+    <state width="1345" height="81" key="GridCell.Tab.0.left" timestamp="1586030688952">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586029337304" />
-    <state width="1345" height="153" key="GridCell.Tab.0.right" timestamp="1586029337304">
+    <state width="1345" height="81" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586030688952" />
+    <state width="1345" height="81" key="GridCell.Tab.0.right" timestamp="1586030688953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586029337304" />
+    <state width="1345" height="81" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586030688953" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1585859075218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
